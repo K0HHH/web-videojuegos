@@ -129,23 +129,30 @@ tr:hover{
   cursor: pointer;
 }
 
-.button-critica {
+#button-critica {
   background-color: white; 
   color: black; 
   border: 2px solid #996633;
   font-size: 20px;
   border-radius: 5px;
   padding: 5px;
+  text-align: center;
 }
 
-.button-critica:hover {
+#button-critica:hover {
   background-color: #333;
   color: white;
 }
 
-.button-container {
+#button-container {
   text-align: center;
   font-size:30px;
+  background-color: white; 
+  color: black; 
+ 
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 
@@ -172,8 +179,27 @@ tr:hover{
   border-radius: 3px;
 }
 
+h1 {
+  cursor: pointer;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+}
 #estilo-lista-pc{
   list-style-type: circle;
+}
+
+.position-list{
+  position:relative;
+  left:10px;
+  top:5px;
 }
 
 
