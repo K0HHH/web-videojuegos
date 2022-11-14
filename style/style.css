@@ -9,6 +9,7 @@
   font-kerning: auto;
 }
 
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 
 html {
@@ -187,6 +188,7 @@ h1 {
   position: fixed;
   left: 0;
   bottom: 0;
+  z-index: 4;
   width: 100%;
   background-color: #2E2E2E;
   color: white;
@@ -202,6 +204,37 @@ h1 {
   top:5px;
 }
 
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3; 
+  background: #eee;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+spam{
+  color:#996633;
+}
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
 @media (min-width: 500px) {
