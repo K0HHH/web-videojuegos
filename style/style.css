@@ -180,8 +180,8 @@ tr:hover{
   border-radius: 3px;
 }
 
-h1 {
-  cursor: pointer;
+table {
+  cursor: grab;
 }
 
 .footer{
