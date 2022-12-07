@@ -305,6 +305,7 @@ ul li:first-child{
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .card-1 {
