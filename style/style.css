@@ -223,30 +223,7 @@ table {
   position: relative;
 }
 
-.black-box {
-  position: relative;
-  z-index: 1;
-  border: 2px solid black;
-  height: 100px;
-  margin: 30px;
-}
 
-.gray-box {
-  position: absolute;
-  z-index: 3;
-  background: #eee;
-  height: 60px;
-  width: 70%;
-  left: 50px;
-  top: 50px;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  cursor: pointer;
-}
 
 spam {
   color: #996633;
@@ -328,10 +305,7 @@ p[href="#"]{
   color: #996633;
 }
 
-.subrayado::first-letter{
-  font-size: 2rem;
-  color: #996633;
-}
+
 
 #subrayado-titulos h1:nth-of-type(odd) {
   text-decoration: underline;
