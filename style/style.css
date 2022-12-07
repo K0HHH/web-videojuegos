@@ -332,6 +332,9 @@ p[href="#"]{
   color: #996633;
 }
 
+#subrayado-titulos h1:nth-of-type(odd) {
+  text-decoration: underline;
+}
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
 
