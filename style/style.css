@@ -1,4 +1,3 @@
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,15 +19,20 @@ html {
     'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
+  width: 100%;
   margin: 0;
+  padding: 0;
   background: #eee;
 }
+
 section {
   height: 100vh;
   background-image: url(../img/imagen-inicio.jpeg);
   background-size: cover;
 }
+
 section span {
   margin: 0;
   font-size: 400%;
@@ -40,11 +44,14 @@ section span {
 
 }
 
-.center{
+.center {
 
-  text-align:center;
+  text-align: center;
 }
 
+head {
+  width: 100%;
+}
 
 header {
   width: 100%;
@@ -56,6 +63,7 @@ header {
   transition: opacity .2s ease-in-out;
   text-align: center;
 }
+
 header h1 {
   font-weight: 600;
   display: inline;
@@ -63,7 +71,8 @@ header h1 {
   padding: 0;
   font-size: inherit;
 }
-nav a {
+
+nav>a {
   display: inline-block;
   outline: none;
   text-decoration: none;
@@ -72,49 +81,54 @@ nav a {
   color: black;
   transition: opacity .2s ease-in-out;
 }
-nav a:hover,
-nav a:focus {
+
+nav>a:hover,
+nav>a:focus {
   opacity: 1;
 }
+
 article {
   margin: 5em auto 0;
   padding: 1em;
   font-size: 140%;
   max-width: 800px;
   background: white;
-  box-shadow: rgba(0,0,0,.05) 0 3px 15px;
+  box-shadow: rgba(0, 0, 0, .05) 0 3px 15px;
 }
+
 article p {
   margin: 0;
   color: #333;
 }
-article p + p {
+
+article p+p {
   margin-top: .7em;
 }
 
-table{
+table {
   background-color: #eee;
   text-align: left;
   border-collapse: collapse;
   width: 100%;
 }
 
-th, td{
+th,
+td {
   padding: 20px;
 }
 
-thead{
+thead {
   background-color: #333;
   border-bottom: solid 5px #996633;
-  color:white;
+  color: white;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
   background-color: white;
 
 }
 
-tr:hover{
+tr:hover {
   background-color: #996633;
 }
 
@@ -147,7 +161,7 @@ tr:hover{
 
 #button-container {
   text-align: center;
-  font-size:30px;
+  font-size: 30px;
   background-color: white;
   color: black;
 
@@ -184,7 +198,7 @@ table {
   cursor: grab;
 }
 
-.footer{
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -194,14 +208,15 @@ table {
   color: white;
   text-align: center;
 }
-#estilo-lista-pc{
+
+#estilo-lista-pc {
   list-style-type: circle;
 }
 
-.position-list{
-  position:relative;
-  left:10px;
-  top:5px;
+.position-list {
+  position: relative;
+  left: 10px;
+  top: 5px;
 }
 
 .container {
@@ -233,31 +248,130 @@ table {
   cursor: pointer;
 }
 
-spam{
-  color:#996633;
+spam {
+  color: #996633;
 }
 
 div.uppercase {
   text-transform: uppercase;
 }
 
+.float-animalcrossing {
+  float: right;
+  width: 250px;
+  height: 120px;
+
+}
+
+.float-stardew {
+  float: right;
+  width: 250px;
+  height: 150px;
+
+}
+
+ul li:first-child{
+  color:#996633;
+
+}
+
+
+/*CSS DE LA PAGINA SOBRE NOSOTROS*/
+
+#contenedor
+{
+  width:100%;
+  line-height:130%;
+  
+}
+#columna1
+{
+  float:left;
+  width:200px;
+  margin:0;
+  padding:1rem;
+  border:1px solid #000;
+  
+}
+#columna2
+{
+  margin-left:210px;
+  padding:1rem;
+}
+
+/*CODIGO DE LA CARD*/
+
+.cards {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  
+
+}
+
+.card-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+p[href="#"]{
+  color: #996633;
+}
+
+
+
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
+
+
 @media (min-width: 500px) {
+
+
+  body {
+    margin: 0px;
+    padding: 0px;
+
+  }
+
   header {
     text-align: left;
+
   }
+
   nav {
     float: right;
   }
+
   article {
     margin: 3.5em auto 0;
     padding: 2em;
   }
-}
-@media (min-width: 800px) {
-  article {
-    margin: 3.5em auto;
-  }
+  
 }
 
+@media (min-width: 800px) {
+
+
+  body {
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  article {
+    margin: 3.5em auto;
+    padding: 2em;
+  }
+
+
+
+}
