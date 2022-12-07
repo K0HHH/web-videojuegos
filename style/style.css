@@ -327,7 +327,10 @@ p[href="#"]{
   color: #996633;
 }
 
-
+.subrayado::first-letter{
+  font-size: 2rem;
+  color: #996633;
+}
 
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
