@@ -310,6 +310,11 @@ p[href="#"]{
   text-decoration: underline;
 }
 
+.container-novedades-ac{
+  border:1px solid #000;
+  
+}
+
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
 
 
