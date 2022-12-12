@@ -311,6 +311,32 @@ p[href="#"]{
   text-decoration: underline;
 }
 
+#contenedor1{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color:white;  
+  height: 100px;
+  color:black;
+  font-size: 1rem;
+}
+
+#item1 {  
+  flex-basis: 30%;
+  order: 0;
+  background-color: white;
+}
+#item2 {
+  flex-basis: 40%;  
+  order: 1;
+  background-color: white;
+}
+#item3 {
+  flex-basis: 30%;  
+  order: 2;
+  background-color: white;
+}
+
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
 
 
@@ -353,31 +379,3 @@ p[href="#"]{
     padding: 2em;
   }
 
-
-
-}
-#contenedor1{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  background-color:white;  
-  height: 100px;
-  color:black;
-  font-size: 1rem;
-}
-
-#item1 {  
-  flex-basis: 30%;
-  order: 0;
-  background-color: white;
-}
-#item2 {
-  flex-basis: 40%;  
-  order: 1;
-  background-color: white;
-}
-#item3 {
-  flex-basis: 30%;  
-  order: 2;
-  background-color: white;
-}
