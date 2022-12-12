@@ -282,6 +282,7 @@ ul li:first-child{
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .card-1 {
@@ -310,9 +311,36 @@ p[href="#"]{
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .container-novedades-ac{
   border:1px solid #000;
   
+=======
+#contenedor1{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color:white;  
+  height: 100px;
+  color:black;
+  font-size: 1rem;
+}
+
+#item1 {  
+  flex-basis: 30%;
+  order: 0;
+  background-color: white;
+}
+#item2 {
+  flex-basis: 40%;  
+  order: 1;
+  background-color: white;
+}
+#item3 {
+  flex-basis: 30%;  
+  order: 2;
+  background-color: white;
+>>>>>>> cc7080ec6f1e3caa9ae1fccb024680ecda92103b
 }
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
@@ -357,6 +385,3 @@ p[href="#"]{
     padding: 2em;
   }
 
-
-
-}
