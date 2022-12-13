@@ -347,11 +347,6 @@ p[href="#"]{
   background-color: white;
 }
 
-div:empty {
-  width:90%;
-  margin:0 auto;
-  background-color: #eee;
-}
 
 .fa {
   padding: 20px;
@@ -403,35 +398,14 @@ div:empty {
   font-size: 20px;
 }
 
-.container-principal-novedades-stardew{
-  display: flex; 
-  height: 300px;
-  font-size:1.4rem;
+
+
+div:empty {
+  width:80%;
+  margin:0 auto;
+  height:2px;
+  background-color: #eee;
 }
-
-#container-novedades-stardew-1{
-  align-self: flex-start;
-  padding: 10px;
-  margin: 3px;
-  border: solid 1px #333; 
-}
-
-#container-novedades-stardew-2{
-  flex-shrink: 2;
-  align-self: center;
-  padding: 10px;
-  margin: 3px;
-  border: solid 1px #333;
-}
-
-#container-novedades-stardew-3{
-  align-self: flex-end;
-  padding: 10px;
-  margin: 3px;
-  border: solid 1px #333;
-
-}
-
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
 
