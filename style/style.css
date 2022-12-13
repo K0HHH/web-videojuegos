@@ -289,12 +289,14 @@ ul li:first-child{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 40%;
+  flex-grow: 1;
+  margin: 4px;
   
-
 }
 
 .card-1:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 
 .container {
@@ -305,43 +307,125 @@ p[href="#"]{
   color: #996633;
 }
 
+.subrayado::first-letter {
+  font-size: 1.5rem;
+  color:#996633;
+}
 
 
 #subrayado-titulos h1:nth-of-type(odd) {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .container-novedades-ac{
   border:1px solid #000;
+}
   
-=======
-#contenedor1{
+#contenedor-social-media{
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   background-color:white;  
   height: 100px;
-  color:black;
+  color: black;
   font-size: 1rem;
 }
 
 #item1 {  
-  flex-basis: 30%;
-  order: 0;
-  background-color: white;
-}
-#item2 {
-  flex-basis: 40%;  
+  flex-basis: 10%;
   order: 1;
   background-color: white;
 }
+#item2 {
+  flex-basis: 10%;  
+  order: 0;
+  background-color: white;
+}
 #item3 {
-  flex-basis: 30%;  
+  flex-basis: 10%;  
   order: 2;
   background-color: white;
->>>>>>> cc7080ec6f1e3caa9ae1fccb024680ecda92103b
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #2E2E2E;
+  color: white;
+}
+
+.fa-twitter {
+  background: #2E2E2E;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #2E2E2E;
+  color: white;
+}
+
+
+.container-principal-novedades-ac{
+  display: flex;
+  flex-flow: row wrap;
+  font-size:1.3rem;
+}
+
+.container-novedades-ac{
+  padding: 10px;
+  margin: 3px;
+  width:150px;
+  height:100px;
+  border: solid 1px #333;
+
+}
+
+.flechas{
+  font-size: 20px;
+}
+
+.container-principal-novedades-stardew{
+  display: flex; 
+  height: 300px;
+  font-size:1.4rem;
+}
+
+#container-novedades-stardew-1{
+  align-self: flex-start;
+  padding: 10px;
+  margin: 3px;
+  border: solid 1px #333; 
+}
+
+#container-novedades-stardew-2{
+  flex-shrink: 2;
+  align-self: center;
+  padding: 10px;
+  margin: 3px;
+  border: solid 1px #333;
+}
+
+#container-novedades-stardew-3{
+  align-self: flex-end;
+  padding: 10px;
+  margin: 3px;
+  border: solid 1px #333;
+
+}
+
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
 
