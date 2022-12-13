@@ -311,11 +311,9 @@ p[href="#"]{
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
 .container-novedades-ac{
   border:1px solid #000;
-  
-=======
+}
 #contenedor1{
   display: flex;
   flex-wrap: wrap;
@@ -340,7 +338,12 @@ p[href="#"]{
   flex-basis: 30%;  
   order: 2;
   background-color: white;
->>>>>>> cc7080ec6f1e3caa9ae1fccb024680ecda92103b
+}
+
+div:empty {
+  width:90%;
+  margin:0 auto;
+  background-color: #eee;
 }
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
@@ -385,3 +388,4 @@ p[href="#"]{
     padding: 2em;
   }
 
+}
