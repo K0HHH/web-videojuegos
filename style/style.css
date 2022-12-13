@@ -366,7 +366,12 @@ p[href="#"]{
   padding: 10px;
   margin: 3px;
   border: solid 1px #333;
+}
 
+div:empty {
+  width:90%;
+  margin:0 auto;
+  background-color: #eee;
 }
 
 /*para hacer la página responsive (adaptable a tablets, moviles...) uso de media queries*/
@@ -411,3 +416,4 @@ p[href="#"]{
     padding: 2em;
   }
 
+}
