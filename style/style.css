@@ -347,6 +347,12 @@ p[href="#"]{
   background-color: white;
 }
 
+div:empty {
+  width:90%;
+  margin:0 auto;
+  background-color: #eee;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -469,3 +475,4 @@ p[href="#"]{
     padding: 2em;
   }
 
+}
