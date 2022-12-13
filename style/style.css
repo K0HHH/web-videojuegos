@@ -317,34 +317,99 @@ p[href="#"]{
   text-decoration: underline;
 }
 
+.container-principal-novedades-ac{
+  display: flex;
+  flex-flow: row wrap;  
+  color:white;
+  font-size:1.3rem;
+}
+
 .container-novedades-ac{
-  border:1px solid #000;
+  text-align: center;
+  margin: 2px;
+  padding: 4px;
+  width:130px;
+  height:90px;
+  border: 1px solid #2E2E2E;
+}
+
+.flechas{
+  font-size: 20px;
 }
   
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #2E2E2E;
+  color: white;
+  border-radius: 70%;
+}
+
+.fa-twitter {
+  background: #2E2E2E;
+  color: white;
+  border-radius: 70%;
+}
+
+
+.fa-instagram {
+  background: #2E2E2E;
+  color: white;
+  border-radius: 70%;
+}
+
 #contenedor-social-media{
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  background-color:white;  
-  height: 100px;
+  align-content: center; 
   color: black;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+
 }
 
 #item1 {  
   flex-basis: 10%;
   order: 1;
-  background-color: white;
+  background-color: #2E2E2E;
+  margin: 5px;
+  border-radius: 50%;
+  
 }
 #item2 {
   flex-basis: 10%;  
   order: 0;
-  background-color: white;
+  background-color: #2E2E2E;
+  margin: 5px;
+  border-radius: 50%;
+  
 }
 #item3 {
   flex-basis: 10%;  
   order: 2;
-  background-color: white;
+  background-color: #2E2E2E;
+  margin: 5px;
+  border-radius: 50%;
 }
 
 .container-principal-novedades-stardew{
